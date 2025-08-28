@@ -1,5 +1,5 @@
 
-import 'package:coffee_shop_app/features/home/views/home_screen.dart';
+import 'package:coffee_shop_app/features/login/views/login_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:lottie/lottie.dart';
@@ -18,7 +18,7 @@ with SingleTickerProviderStateMixin {
     super.initState(); 
     SystemChrome.setEnabledSystemUIMode(SystemUiMode.immersive);
     Future.delayed(Duration(seconds: 10),(){
-    Navigator.of(context).pushReplacement(MaterialPageRoute(builder: (_)=>HomeScreen()));
+    Navigator.of(context).pushReplacement(MaterialPageRoute(builder: (_)=>LoginScreen()));
     });
   }
   @override
