@@ -1,5 +1,4 @@
-import 'package:coffee_shop_app/features/login/views/login_screen.dart';
-import 'package:coffee_shop_app/features/splash/views/splash_screen.dart';
+import 'package:coffee_shop_app/features/home/views/home_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -13,7 +12,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: SplashScreen()
+      home: HomeScreen()
     );
   }
 }
