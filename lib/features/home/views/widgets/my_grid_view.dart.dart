@@ -21,7 +21,7 @@ class MyGridView extends StatelessWidget {
           itemCount:products.length, //  MyProduct.coffee.length, 
           itemBuilder: (context, index) { 
             //final allProduct = MyProduct.coffee[index];// 
-          return ProductCard(product: products [index],);//we want the product to put in the container one by one
+          return ProductCard(product: products [index],);//I want the product to put in the container one by one
            },
       ),
     );

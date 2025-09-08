@@ -63,6 +63,7 @@ class _ProductCardState extends State<ProductCard> {
                       ),
                     ),
                     Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [
                         Container(
                           height: 20,

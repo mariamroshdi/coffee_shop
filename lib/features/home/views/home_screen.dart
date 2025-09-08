@@ -26,11 +26,11 @@ class _HomeScreenState extends State<HomeScreen> {
               spacing: 15.0,
               runSpacing: 15.0,
               children: [
-                _buildProductCategory(index: 0, name: '☕ COFFEE'),
-                _buildProductCategory(index: 1, name: '🥞 DESSERTS'),
-                _buildProductCategory(index: 4, name: '🥪 BREAKFAST'),
-                _buildProductCategory(index: 2, name: '🍰 CAKE'),
-                _buildProductCategory(index: 3, name: '🍵 DRINKS'),
+                buildProductCategory(index: 0, name: '☕ COFFEE'),
+                buildProductCategory(index: 1, name: '🥞 DESSERTS'),
+                buildProductCategory(index: 4, name: '🥪 BREAKFAST'),
+                buildProductCategory(index: 2, name: '🍰 CAKE'),
+                buildProductCategory(index: 3, name: '🍵 DRINKS'),
               ],
             ),
             VerticalSpacer(height: 16),
@@ -46,7 +46,7 @@ class _HomeScreenState extends State<HomeScreen> {
     );
   }
 
-  _buildProductCategory({
+  buildProductCategory({
     required int index,
     required String name,
   }) => Container(////the thing which i suppose it is a function we will use it to show the categories
